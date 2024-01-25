@@ -94,9 +94,10 @@
     gap: 1rem;
 }
 
-span{
-
+.plane{
+    background-color: red;
 }
+
 
 /* #endregion Utilities_______________________________________________________________*/
 
@@ -114,6 +115,8 @@ span{
 .btn-init {
     padding: 0.8rem 1rem;
 }
+
+.
 
 
 /* #endregion header_______________________________________________________________*/
@@ -163,6 +166,18 @@ h2{
     padding: 1rem;
     margin-bottom: 2rem;
 }
+
+/* sezione title planes */
+
+.planes{
+    padding: 0.5rem;
+}
+
+.plane{
+    margin: 0.5rem;
+    height: 300px;
+}
+
 
 
 
