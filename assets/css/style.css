@@ -92,10 +92,16 @@ h3{
     gap: 3rem;
 }
 
-
-.gap-05 {
-    gap: 1rem;
+.column-gap1{
+    flex-direction: column;
+    gap: rem;
 }
+
+
+
+
+
+
 
 .plane{
     
@@ -104,16 +110,66 @@ h3{
 .pl-title{
     width: 100%;
     text-align: center;
-    line-height: 30px;
-    height: 2rem;
     border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    margin-top: 1rem;
+    
+    
 }
 
 .icon-blue{
     color: blue;
 }
+
+.btn-plane{
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+
+}
+
+/* #region Misure Padding_______________________________________________________________*/
+
+.pad-b05{
+    padding-bottom: 0.5rem;
+}
+
+.pad-t05{
+    padding-top: 0.5rem;
+}
+.pad-b1{
+    padding-bottom: 1rem;
+}
+
+.pad-t1{
+    padding-top: 1rem;
+}
+
+.pad-b2{
+    padding-bottom: 2rem;
+}
+
+.pad-t2{
+    padding-top: 2rem;
+}
+
+.pad-b3{
+    padding-bottom: 3rem;
+}
+
+.pad-t3{
+    padding-top: 3rem;
+}
+
+.pad-b4{
+    padding-bottom: 4rem;
+}
+
+.pad-t4{
+    padding-top: 4rem;
+}
+
+/* #endregion Misure Padding_______________________________________________________________*/
+
+
+
 
 /* #endregion Utilities_______________________________________________________________*/
 
@@ -170,7 +226,7 @@ h1{
 /* sezione jumbotrone*/
 
 
-h2{
+.fs-40px{
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     padding-top: 8rem;
@@ -192,11 +248,12 @@ h2{
 
 .plane{
     margin: 1rem;
-    background-color: red;
-    font-size: 80%;
-    
+    border: 1px solid black;
 }
 
+.color-soft{
+    color: gray;
+}
 
 
 
