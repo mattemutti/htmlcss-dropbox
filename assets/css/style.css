@@ -33,6 +33,13 @@ h3{
     height: 100px;
 }
 
+.debug .color{
+    background-color: red;
+    height: 100px;
+}
+
+*{border: 1px dashed black;}
+
 
 /* #endregion Debug_______________________________________________________________*/
 
@@ -123,11 +130,23 @@ h3{
 
 .bord-sw{
     box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    
 
 }
 
 
+h2{
+    text-align: center;
+    border: 1px solid black;
+}
 
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
 
 
 /* #region Misure Padding_______________________________________________________________*/
@@ -172,9 +191,6 @@ h3{
 }
 
 /* #endregion Misure Padding_______________________________________________________________*/
-
-
-
 
 /* #endregion Utilities_______________________________________________________________*/
 
@@ -249,6 +265,7 @@ h1{
 .plane{
 border-left: 1px solid black;    
 padding-bottom: 5rem;
+border-bottom: 1px solid black;
     
 }
 
@@ -258,7 +275,17 @@ padding-bottom: 5rem;
 }
 
 
+/* sezione planes */
 
+
+
+.cta-text{
+    width: 60%;
+}
+
+.cta-btn{
+    text-align: end;
+}
 
 
 /* #endregion main_______________________________________________________________*/
