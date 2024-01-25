@@ -45,7 +45,7 @@
 .container-small {
     width: 60%;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1100px;
 }
 
 .d-f {
@@ -92,6 +92,10 @@
 
 .gap-05 {
     gap: 1rem;
+}
+
+span{
+
 }
 
 /* #endregion Utilities_______________________________________________________________*/
@@ -153,6 +157,11 @@ h2{
     padding-top: 8rem;
     padding-bottom: 3rem;
 
+}
+
+.fatturazione{
+    padding: 1rem;
+    margin-bottom: 2rem;
 }
 
 
