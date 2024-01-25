@@ -136,7 +136,6 @@ h3{
 
 
 h2{
-    text-align: center;
     border: 1px solid black;
 }
 
@@ -156,7 +155,9 @@ h2{
     width: 40%;
 }
 
-
+.ta-c{
+    text-align: center;
+}
 
 /* #region Misure Padding_______________________________________________________________*/
 
