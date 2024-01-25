@@ -15,7 +15,7 @@
 }
 
 
-h3{
+h3 {
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -33,12 +33,16 @@ h3{
     height: 100px;
 }
 
-.debug .color{
+.debug .color {
     background-color: red;
     height: 100px;
 }
 
-*{border: 1px dashed black;}
+.debug .card {}
+
+* {
+    border: 1px dashed black;
+}
 
 
 /* #endregion Debug_______________________________________________________________*/
@@ -57,6 +61,7 @@ h3{
     width: 70%;
     margin: auto;
     max-width: 1100px;
+
 }
 
 .d-f {
@@ -77,7 +82,7 @@ h3{
 }
 
 .col-3 {
-    width: calc((100%/12)*4);
+    width: calc((100% / 12) *4);
 }
 
 .clean-link {
@@ -94,114 +99,121 @@ h3{
 
 }
 
-.column{
+.column {
     flex-direction: column;
     gap: 3rem;
 }
 
-.column-gap1{
+.column-gap1 {
     flex-direction: column;
 }
 
 
-.pl-title{
+.pl-title {
     text-align: center;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
-    
-    
+
+
 }
 
-.icon-blue{
+.icon-blue {
     color: blue;
 }
 
-.btn-plane{
+.btn-plane {
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
 }
 
-.bord-plane{
+.bord-plane {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-top: 0;
 
 }
 
-.bord-sw{
+.bord-sw {
     box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
-    
+
 
 }
 
 
-h2{
+h2 {
     border: 1px solid black;
 }
 
-.grow1{
+.grow1 {
     flex-grow: 1;
 }
 
-.grow2{
+.grow2 {
     flex-grow: 2;
 }
 
-.width-60{
+.width-60 {
     width: 60%;
 }
 
-.width-40{
+.width-40 {
     width: 40%;
 }
 
-.ta-c{
+.ta-c {
     text-align: center;
 }
 
 /* #region Misure Padding_______________________________________________________________*/
 
-.padding1{
+.padding1 {
     padding: 1rem;
 }
 
-.pad-b05{
+
+
+.pad-b05 {
     padding-bottom: 0.5rem;
 }
 
-.pad-t05{
+.pad-t05 {
     padding-top: 0.5rem;
 }
-.pad-b1{
+
+.pad-b1 {
     padding-bottom: 1rem;
 }
 
-.pad-t1{
+.pad-t1 {
     padding-top: 1rem;
 }
 
-.pad-b2{
+.pad-b2 {
     padding-bottom: 2rem;
 }
 
-.pad-t2{
+.pad-t2 {
     padding-top: 2rem;
 }
 
-.pad-b3{
+.pad-b3 {
     padding-bottom: 3rem;
 }
 
-.pad-t3{
+.pad-t3 {
     padding-top: 3rem;
 }
 
-.pad-b4{
+.pad-b4 {
     padding-bottom: 4rem;
 }
 
-.pad-t4{
+.pad-t4 {
     padding-top: 4rem;
+}
+
+.wrap {
+    flex-wrap: wrap;
 }
 
 /* #endregion Misure Padding_______________________________________________________________*/
@@ -237,22 +249,22 @@ h2{
     height: 700px;
 }
 
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-size: 70px;
     padding-bottom: 4rem;
     padding-top: 6rem;
 }
 
-.img-jumbo{
+.img-jumbo {
     width: 60%;
 }
 
-.btn-big{
+.btn-big {
     padding: 0.6rem 1.2rem;
 }
 
-.icon-jumbo{
+.icon-jumbo {
     font-size: 300%;
 }
 
@@ -261,7 +273,7 @@ h1{
 /* sezione jumbotrone*/
 
 
-.fs-40px{
+.fs-40px {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     padding-top: 8rem;
@@ -269,22 +281,23 @@ h1{
 
 }
 
-.fatturazione{
+.fatturazione {
     padding: 1rem;
     margin-bottom: 2rem;
 }
 
 /* sezione title planes */
 
-.plane{
-border-left: 1px solid black;    
-padding-bottom: 5rem;
-border-bottom: 1px solid black;
-    
+.plane {
+    border-left: 1px solid black;
+    padding-bottom: 5rem;
+    border-bottom: 1px solid black;
+    width: 100%;
+
 }
 
 
-.color-soft{
+.color-soft {
     color: gray;
 }
 
@@ -293,13 +306,25 @@ border-bottom: 1px solid black;
 
 
 
-.cta-text{
-    
-}
+.cta-text {}
 
-.cta-btn{
+.cta-btn {
     text-align: end;
 }
+
+/* sezione partner */
+
+
+
+
+.card {
+    width: 33.33%;
+    padding: 0.5rem;
+
+}
+
+/* sezione operation */
+
 
 
 /* #endregion main_______________________________________________________________*/
