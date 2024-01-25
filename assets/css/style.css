@@ -83,6 +83,13 @@
 
 }
 
+.text{
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
 .gap-05 {
     gap: 1rem;
 }
@@ -126,6 +133,16 @@ h1{
 .img-jumbo{
     width: 60%;
 }
+
+.btn-big{
+    padding: 0.6rem 1.2rem;
+}
+
+.icon-jumbo{
+    font-size: 300%;
+}
+
+
 
 /* sezione jumbotrone*/
 
