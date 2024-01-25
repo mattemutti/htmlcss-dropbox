@@ -15,6 +15,10 @@
 }
 
 
+h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
 
 /* #endregion Rule for All_______________________________________________________________*/
 
@@ -43,9 +47,9 @@
 }
 
 .container-small {
-    width: 60%;
+    width: 50%;
     margin: auto;
-    max-width: 1100px;
+    max-width: 1200px;
 }
 
 .d-f {
@@ -83,11 +87,10 @@
 
 }
 
-.text{
+.column{
     flex-direction: column;
     gap: 3rem;
 }
-
 
 
 .gap-05 {
@@ -95,9 +98,22 @@
 }
 
 .plane{
-    background-color: red;
+    
 }
 
+.pl-title{
+    width: 100%;
+    text-align: center;
+    line-height: 30px;
+    height: 2rem;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    margin-top: 1rem;
+}
+
+.icon-blue{
+    color: blue;
+}
 
 /* #endregion Utilities_______________________________________________________________*/
 
@@ -116,7 +132,7 @@
     padding: 0.8rem 1rem;
 }
 
-.
+
 
 
 /* #endregion header_______________________________________________________________*/
@@ -171,11 +187,14 @@ h2{
 
 .planes{
     padding: 0.5rem;
+    box-shadow: (0 0 50px black);
 }
 
 .plane{
-    margin: 0.5rem;
-    height: 300px;
+    margin: 1rem;
+    background-color: red;
+    font-size: 80%;
+    
 }
 
 
