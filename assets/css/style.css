@@ -172,6 +172,8 @@ h2 {
 
 
 
+
+
 .pad-b05 {
     padding-bottom: 0.5rem;
 }
@@ -229,6 +231,10 @@ h2 {
 
 .logo {
     width: 100%;
+}
+
+.logo-50{
+    width: 50%;
 }
 
 .btn-init {
@@ -325,6 +331,33 @@ h1 {
 
 /* sezione operation */
 
+.card-cl{
+    width: 33.33%;
+
+}
+
+
+.card-cl1{
+    width: 33.33%;
+    padding: 1rem;
+    background-color: rgb(233, 233, 233);
+
+}
+
+.log-cl{
+    width: 50%;
+    height: 50%;
+
+    
+}
+
+#designit{
+    background-color: green;
+}
+
+#asu{
+    background-color: red;
+}
 
 
 /* #endregion main_______________________________________________________________*/
