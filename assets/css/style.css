@@ -8,6 +8,12 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+:root{
+    --db-primary: #0061ffFF;
+    --db-dark: #000000FF;
+    --db-secondary: #b4d0e7FF;
+    --db-light: #ffffffFF;
+}
 
 
 
@@ -17,9 +23,21 @@
 
 /* #region Debug_______________________________________________________________*/
 
-body{
-    background-color: red;
+.debug #header-site{
+    background-color: rebeccapurple;
+    height: 100px;
 }
+
+.debug #main-site{
+    background-color: rgb(255, 0, 34);
+    height: 600px;
+}
+
+.debug #footer-site{
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+}
+
 
 /* #endregion Debug_______________________________________________________________*/
 
@@ -27,6 +45,28 @@ body{
 
 /* #region Utilities_______________________________________________________________*/
 
+.container{
+    width: 80%;
+}
 
+.container-small{
+    width: 70%;
+}
+
+.d-p{
+    display: flex;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+.col-3{
+    width: calc((100%/12)*4);
+}
 
 /* #endregion Utilities_______________________________________________________________*/
