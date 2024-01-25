@@ -47,9 +47,9 @@ h3{
 }
 
 .container-small {
-    width: 50%;
+    width: 70%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1100px;
 }
 
 .d-f {
@@ -94,23 +94,13 @@ h3{
 
 .column-gap1{
     flex-direction: column;
-    gap: rem;
 }
 
-
-
-
-
-
-
-.plane{
-    
-}
 
 .pl-title{
-    width: 100%;
     text-align: center;
     border-bottom: 1px solid black;
+    border-top: 1px solid black;
     
     
 }
@@ -122,8 +112,23 @@ h3{
 .btn-plane{
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
+}
+
+.bord-plane{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0;
 
 }
+
+.bord-sw{
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+
+}
+
+
+
+
 
 /* #region Misure Padding_______________________________________________________________*/
 
@@ -241,15 +246,12 @@ h1{
 
 /* sezione title planes */
 
-.planes{
-    padding: 0.5rem;
-    box-shadow: (0 0 50px black);
+.plane{
+border-left: 1px solid black;    
+padding-bottom: 5rem;
+    
 }
 
-.plane{
-    margin: 1rem;
-    border: 1px solid black;
-}
 
 .color-soft{
     color: gray;
