@@ -1,14 +1,13 @@
-
 /* #region Rule for All_______________________________________________________________*/
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
 }
 
-:root{
+:root {
     --db-primary: #0061ffFF;
     --db-dark: #000000FF;
     --db-secondary: #b4d0e7FF;
@@ -23,17 +22,9 @@
 
 /* #region Debug_______________________________________________________________*/
 
-.debug #header-site{
-    
-    height: 100px;
-}
 
-.debug #main-site{
-    background-color: rgb(255, 0, 34);
-    height: 600px;
-}
 
-.debug #footer-site{
+.debug #footer-site {
     background-color: rgb(0, 0, 0);
     height: 100px;
 }
@@ -45,50 +36,54 @@
 
 /* #region Utilities_______________________________________________________________*/
 
-.container{
+.container {
     width: 80%;
+    margin: auto;
+    max-width: 1200px;
 }
 
-.container-small{
-    width: 70%;
+.container-small {
+    width: 60%;
+    margin: auto;
+    max-width: 1200px;
 }
 
-.d-f{
+.d-f {
     display: flex;
 }
 
-.jc-c{
+.jc-c {
     justify-content: center;
 }
 
-.jc-sb{
+.jc-sb {
     justify-content: space-between;
     padding: 2rem;
 }
 
-.ai-c{
+.ai-c {
     align-items: center;
 }
 
-.col-3{
+.col-3 {
     width: calc((100%/12)*4);
 }
 
-.clean-link{
+.clean-link {
     text-decoration: none;
     color: var(--db-dark);
     padding: 0 1rem;
-    
+
 }
 
-.btn{
+.btn {
     background-color: var(--db-primary);
     color: var(--db-light);
     border: none;
 
 }
 
-.gap-05{
+.gap-05 {
     gap: 1rem;
 }
 
@@ -97,17 +92,51 @@
 
 /* #region header_______________________________________________________________*/
 
-#header-site{
+#header-site {
     background-color: var(--db-light);
 }
 
-.logo{
+.logo {
     width: 100%;
 }
 
-.btn-init{
+.btn-init {
     padding: 0.8rem 1rem;
 }
 
 
 /* #endregion header_______________________________________________________________*/
+
+
+
+/* #region main_______________________________________________________________*/
+
+.bg-jambotrone {
+    background-color: var(--db-secondary);
+    height: 700px;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+}
+
+.img-jumbo{
+    width: 60%;
+}
+
+/* sezione jumbotrone*/
+
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 8rem;
+
+}
+
+
+
+/* #endregion main_______________________________________________________________*/
