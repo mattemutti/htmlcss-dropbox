@@ -148,8 +148,21 @@ h2{
     flex-grow: 2;
 }
 
+.width-60{
+    width: 60%;
+}
+
+.width-40{
+    width: 40%;
+}
+
+
 
 /* #region Misure Padding_______________________________________________________________*/
+
+.padding1{
+    padding: 1rem;
+}
 
 .pad-b05{
     padding-bottom: 0.5rem;
@@ -280,7 +293,7 @@ border-bottom: 1px solid black;
 
 
 .cta-text{
-    width: 60%;
+    
 }
 
 .cta-btn{
