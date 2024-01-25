@@ -45,7 +45,7 @@
 .container-small {
     width: 60%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1000px;
 }
 
 .d-f {
@@ -151,8 +151,11 @@ h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
     padding-top: 8rem;
+    padding-bottom: 3rem;
 
 }
+
+
 
 
 
