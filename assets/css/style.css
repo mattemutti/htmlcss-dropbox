@@ -76,6 +76,8 @@ h1 {
 
 }
 
+
+
 .clean-link {
     text-decoration: none;
     color: var(--db-dark);
@@ -106,7 +108,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin 0 -1rem;
-}
+    }
 
 .col-4 {
     width: calc((100% / 12) * 4);
