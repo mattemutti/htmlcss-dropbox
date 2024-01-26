@@ -41,10 +41,11 @@ h3 {
 
 .debug .card {}
 
+/*
 * {
     border: 1px dashed black;
 }
-
+*/
 
 /* #endregion Debug_______________________________________________________________*/
 
@@ -151,9 +152,6 @@ h3 {
 }
 
 
-h2 {
-    border: 1px solid black;
-}
 
 .grow1 {
     flex-grow: 1;
