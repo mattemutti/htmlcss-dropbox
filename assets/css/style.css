@@ -16,18 +16,16 @@
 }
 
 
-h3 {
-    font-family: 'Open Sans', sans-serif;
-}
 
 
 /* #endregion Rule for All_______________________________________________________________*/
 
 
 
+
 /* #region Debug_______________________________________________________________*/
 
-
+/*
 
 .debug #footer-site {
     background-color: rgb(0, 0, 0);
@@ -41,7 +39,7 @@ h3 {
 
 .debug .card {}
 
-/*
+
 * {
     border: 1px dashed black;
 }
@@ -243,8 +241,17 @@ h3 {
     background-color: var(--db-light);
 }
 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
 .logo {
     width: 100%;
+    display: inline
 }
 
 .logo-50{
