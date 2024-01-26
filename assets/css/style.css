@@ -108,7 +108,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     margin 0 -1rem;
-    }
+}
 
 .col-4 {
     width: calc((100% / 12) * 4);
@@ -133,6 +133,22 @@ h1 {
     box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
     padding: 1rem;
 }
+
+.width-60 {
+    width: 60%;
+}
+
+.width-40 {
+    width: 40%;
+}
+
+.padding-bottom2{
+    padding-bottom: 2rem;
+}
+
+
+
+
 
 
 
@@ -214,13 +230,7 @@ h1 {
     flex-grow: 2;
 }
 
-.width-60 {
-    width: 60%;
-}
 
-.width-40 {
-    width: 40%;
-}
 
 .ta-c {
     text-align: center;
@@ -403,17 +413,17 @@ nav {
     color: gray;
 }
 
-.box-icon{
+.box-icon {
     display: flex;
     gap: 0.5rem;
 }
 
 .btn-plane {
     text-align: center;
-   padding: 2rem 1rem;
+    padding: 2rem 1rem;
 }
 
-.list-plane{
+.list-plane {
     padding: 0.5rem 0;
 }
 
@@ -434,9 +444,6 @@ nav {
 
 }
 
-
-
-
 .plane {
     border-left: 1px solid black;
     padding-bottom: 5rem;
@@ -450,14 +457,37 @@ nav {
 
 /* #endregion sezione planes */
 
+.title-cta {
+    padding: 1rem;
+}
+
+.box-cta {
+    display: flex;
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 2rem;
+}
+
+.box-cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 
 
-.cta-text {}
 
 .cta-btn {
     text-align: end;
 }
+
+
+/* sezione call to action */
+
+
+
+
+
+
 
 /* sezione partner */
 
@@ -589,9 +619,10 @@ nav {
     padding: 3rem;
 }
 
-div>b {
+/*
+div> {
     font-size: 20px;
-}
+}*/
 
 
 
