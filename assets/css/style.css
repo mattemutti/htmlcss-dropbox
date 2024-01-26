@@ -54,13 +54,13 @@ h3 {
 .container {
     width: 80%;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1440px;
 }
 
 .container-small {
     width: 70%;
     margin: auto;
-    max-width: 1100px;
+    max-width: 1200px;
 
 }
 
@@ -92,8 +92,15 @@ h3 {
     text-decoration: none;
     color: var(--db-dark);
     padding: 0 1rem;
+}
+
+.clean-link-footer {
+    text-decoration: none;
+    color: var(--db-light);
+    padding: 1rem 0;
 
 }
+
 
 .btn {
     background-color: var(--db-primary);
@@ -378,6 +385,31 @@ h1 {
 }
 
 
-
-
 /* #endregion main_______________________________________________________________*/
+
+
+
+
+/* #region footer_______________________________________________________________*/
+
+#footer-site {
+    background-color: rgb(0, 0, 0);
+    color: var(--db-light);
+
+}
+
+
+.footer-top, .footer-bot {
+    color: var(--db-light);
+    padding: 3rem;
+}       
+
+div > b {
+    font-size: 28px;
+}
+
+
+
+/* #endregion footer_______________________________________________________________*/
+
+
