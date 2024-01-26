@@ -358,14 +358,26 @@ h1 {
 
     
 }
+/* sezione client */
 
-#designit{
-    background-color: green;
+
+.free {
+    background-color: var(--db-secondary);
 }
 
-#asu{
-    background-color: red;
+.box-free {
+    justify-content: space-between;
+    padding: 5rem;
 }
+
+
+/* sezione free */
+
+.box-faq{
+    border-bottom: 1px solid black;
+}
+
+
 
 
 /* #endregion main_______________________________________________________________*/
