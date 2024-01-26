@@ -389,6 +389,13 @@ nav {
     padding-bottom: 3rem;
 }
 
+.fs-40 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 .fatturazione {
     padding: 1rem 0;
     padding-right: 1rem;
@@ -486,7 +493,7 @@ nav {
 .box-prtn{
     display: flex;
     align-items: center;
-    padding: 10rem 0;
+    padding: 6rem 0;
     
 }
 
