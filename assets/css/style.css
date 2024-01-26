@@ -12,6 +12,7 @@
     --db-dark: #000000FF;
     --db-secondary: #b4d0e7FF;
     --db-light: #ffffffFF;
+    --db-box1: #a2d39bFF;
 }
 
 
@@ -359,11 +360,46 @@ h1 {
 
 }
 
-.log-cl{
+.logo-cl{
     width: 50%;
     height: 50%;
-
     
+}
+
+.logo-client{
+    width: 50%;
+    color: var(--db-light);
+    filter: invert();
+    align-items: center;
+    margin: auto;
+    
+}
+
+
+.box1{
+    align-items: center;
+    background-color: var(--db-box1);
+}
+
+.box2{
+    align-items: center;
+    background-color: #61082bFF;
+    
+}
+
+
+.box3{
+    align-items: center;
+    background-color: #0093ceFF;
+}
+
+.box4{
+    align-items: center;
+    background-color: #ff1c1cFF;
+}
+
+.box-central{
+    background-color: #f5f5f5FF;
 }
 /* sezione client */
 
@@ -377,6 +413,27 @@ h1 {
     padding: 5rem;
 }
 
+.box5{
+    align-items: center;
+    background-color: #d5001fFF;
+}
+
+.box6{
+    align-items: center;
+    background-color: #b4d0e7FF;
+    
+}
+
+
+.box7{
+    align-items: center;
+    background-color: #0d2481FF;
+}
+
+.box8{
+    align-items: center;
+    background-color: #ffd830FF;
+}
 
 /* sezione free */
 
