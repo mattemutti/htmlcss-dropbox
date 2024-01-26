@@ -15,6 +15,13 @@
     --db-box1: #a2d39bFF;
 }
 
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    padding-bottom: 4rem;
+    padding-top: 6rem;
+}
+
 
 
 
@@ -64,6 +71,38 @@
 
 }
 
+.clean-link {
+    text-decoration: none;
+    color: var(--db-dark);
+    padding: 0 1rem;
+}
+
+.clean-link-footer {
+    text-decoration: none;
+    color: var(--db-light);
+    padding: 1rem 0;
+}
+
+.btn {
+    background-color: var(--db-primary);
+    color: var(--db-light);
+    border: none;
+}
+
+.btn-big {
+    padding: 0.6rem 1.2rem;
+}
+
+.btn-init {
+    padding: 0.3rem 1rem;
+}
+
+
+
+
+
+
+
 .d-f {
     display: flex;
 }
@@ -82,37 +121,14 @@
 }
 
 
-
-
 .col-3 {
     width: calc((100% / 12) * 4);
 }
 
-.clean-link {
-    text-decoration: none;
-    color: var(--db-dark);
-    padding: 0 1rem;
-}
-
-.clean-link-footer {
-    text-decoration: none;
-    color: var(--db-light);
-    padding: 1rem 0;
-
-}
 
 
-.btn {
-    background-color: var(--db-primary);
-    color: var(--db-light);
-    border: none;
 
-}
 
-.column {
-    flex-direction: column;
-    gap: 3rem;
-}
 
 .column-gap1 {
     flex-direction: column;
@@ -171,19 +187,30 @@
     text-align: center;
 }
 
+.logo {
+    width: 100%;
+    
+}
+
 .logo-cl{
     width: 50%;
     height: 50%;
 }
+
+.logo-50{
+    width: 50%;
+}
+
+
+
+/* #endregion Utilities_______________________________________________________________*/
+
 
 /* #region Misure Padding_______________________________________________________________*/
 
 .padding1 {
     padding: 1rem;
 }
-
-
-
 
 
 .pad-b05 {
@@ -232,7 +259,6 @@
 
 /* #endregion Misure Padding_______________________________________________________________*/
 
-/* #endregion Utilities_______________________________________________________________*/
 
 
 /* #region header_______________________________________________________________*/
@@ -258,25 +284,8 @@ nav{
 
 .logo-header {
     width: 100%;
-    display: inline
-    
+    display: inline   
 }
-
-.logo {
-    width: 100%;
-    
-}
-
-.logo-50{
-    width: 50%;
-}
-
-.btn-init {
-    padding: 0.8rem 1rem;
-}
-
-
-
 
 /* #endregion header_______________________________________________________________*/
 
@@ -284,24 +293,27 @@ nav{
 
 /* #region main_______________________________________________________________*/
 
-.bg-jambotrone {
+
+
+/* #region sezione jumbotrone*/
+
+.bg-jumbotron {
     background-color: var(--db-secondary);
     height: 700px;
 }
 
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 70px;
-    padding-bottom: 4rem;
-    padding-top: 6rem;
+.text-jumbo{
+    display: flex;
+    justify-content: center;
+}
+
+.info-jumbo {
+    flex-direction: column;
+    gap: 3rem;
 }
 
 .img-jumbo {
     width: 60%;
-}
-
-.btn-big {
-    padding: 0.6rem 1.2rem;
 }
 
 .icon-jumbo {
@@ -309,8 +321,7 @@ h1 {
 }
 
 
-
-/* sezione jumbotrone*/
+/* #endregion sezione jumbotrone*/
 
 
 .fs-40px {
