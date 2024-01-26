@@ -46,11 +46,16 @@ h1 {
 
 .debug .card {}
 
+.debug [class^="col-"]{
+    min-height: 300px;
+}
 
+ 
 * {
     border: 1px dashed black;
 }
 */
+
 
 /* #endregion Debug_______________________________________________________________*/
 
@@ -97,6 +102,53 @@ h1 {
     padding: 0.3rem 1rem;
 }
 
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin 0 -1rem;
+}
+
+.col-4 {
+    width: calc((100% / 12) * 4);
+}
+
+/*
+[class^="col-"]{
+    padding: 1rem;
+}
+*/
+
+.pl-title {
+    text-align: center;
+
+}
+
+.bord-title {
+    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.bord-sw {
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.col-3 {
+    width: calc((100% / 12) * 4);
+}
 
 
 
@@ -121,9 +173,7 @@ h1 {
 }
 
 
-.col-3 {
-    width: calc((100% / 12) * 4);
-}
+
 
 
 
@@ -135,22 +185,13 @@ h1 {
 }
 
 
-.pl-title {
-    text-align: center;
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
 
-
-}
 
 .icon-blue {
     color: blue;
 }
 
-.btn-plane {
-    padding-top: 0.8rem;
-    padding-bottom: 0.8rem;
-}
+
 
 .bord-plane {
     padding-left: 1rem;
@@ -159,11 +200,7 @@ h1 {
 
 }
 
-.bord-sw {
-    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
 
-
-}
 
 
 
@@ -189,15 +226,15 @@ h1 {
 
 .logo {
     width: 100%;
-    
+
 }
 
-.logo-cl{
+.logo-cl {
     width: 50%;
     height: 50%;
 }
 
-.logo-50{
+.logo-50 {
     width: 50%;
 }
 
@@ -268,7 +305,7 @@ h1 {
     height: 80px;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,14 +314,19 @@ nav{
     line-height: 40px;
 }
 
-.box-left{
+.img-logo {
+    object-position: center;
+}
+
+.box-left {
     align-items: center;
-    display: inline-block;
+    align-content: center;
 }
 
 .logo-header {
     width: 100%;
-    display: inline   
+    display: inline;
+
 }
 
 /* #endregion header_______________________________________________________________*/
@@ -295,14 +337,14 @@ nav{
 
 
 
-/* #region sezione jumbotrone*/
+/* #region sezione jumbotrone */
 
 .bg-jumbotron {
     background-color: var(--db-secondary);
     height: 700px;
 }
 
-.text-jumbo{
+.text-jumbo {
     display: flex;
     justify-content: center;
 }
@@ -325,20 +367,73 @@ nav{
 /* #endregion sezione jumbotrone*/
 
 
+/* #region sezione planes */
+
+
 .fs-40px {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    padding-top: 8rem;
+    padding-top: 15rem;
     padding-bottom: 3rem;
-
 }
 
 .fatturazione {
-    padding: 1rem;
+    padding: 1rem 0;
+    padding-right: 1rem;
     margin-bottom: 2rem;
 }
 
 /* sezione title planes */
+
+.box-class {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.type-class {
+    padding-top: 3rem;
+}
+
+.month {
+    margin-top: -1rem;
+    padding-bottom: 3rem;
+    color: gray;
+}
+
+.box-icon{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.btn-plane {
+    text-align: center;
+   padding: 2rem 1rem;
+}
+
+.list-plane{
+    padding: 0.5rem 0;
+}
+
+.type-class2 {
+    padding: 2rem 0;
+}
+
+
+
+
+
+
+
+
+.planes {
+    display: flex;
+    padding-bottom: 3rem;
+
+}
+
+
+
 
 .plane {
     border-left: 1px solid black;
@@ -349,12 +444,10 @@ nav{
 }
 
 
-.color-soft {
-    color: gray;
-}
 
 
-/* sezione planes */
+/* #endregion sezione planes */
+
 
 
 
@@ -377,61 +470,62 @@ nav{
 
 /* sezione operation */
 
-.card-cl{
+.card-cl {
     width: 33.33%;
 
 }
 
 
-.card-cl1{
+.card-cl1 {
     width: 33.33%;
     padding: 1rem;
     background-color: rgb(233, 233, 233);
 
 }
 
-.logo-cl{
+.logo-cl {
     width: 50%;
     height: 50%;
-    
+
 }
 
-.logo-client{
+.logo-client {
     width: 50%;
     color: var(--db-light);
     filter: invert();
     align-items: center;
     margin: auto;
-    
+
 }
 
 
-.box1{
+.box1 {
     align-items: center;
     background-color: var(--db-box1);
 }
 
-.box2{
+.box2 {
     align-items: center;
     background-color: #61082bFF;
-    
+
 }
 
 
-.box3{
+.box3 {
     align-items: center;
     background-color: #0093ceFF;
 }
 
-.box4{
+.box4 {
     align-items: center;
     background-color: #ff1c1cFF;
 }
 
-.box-central{
+.box-central {
     background-color: #f5f5f5FF;
     padding: 2rem;
 }
+
 /* sezione client */
 
 
@@ -444,31 +538,31 @@ nav{
     padding: 5rem;
 }
 
-.box5{
+.box5 {
     align-items: center;
     background-color: #d5001fFF;
 }
 
-.box6{
+.box6 {
     align-items: center;
     background-color: #b4d0e7FF;
-    
+
 }
 
 
-.box7{
+.box7 {
     align-items: center;
     background-color: #0d2481FF;
 }
 
-.box8{
+.box8 {
     align-items: center;
     background-color: #ffd830FF;
 }
 
 /* sezione free */
 
-.box-faq{
+.box-faq {
     border-bottom: 1px solid black;
 }
 
@@ -487,17 +581,16 @@ nav{
 }
 
 
-.footer-top, .footer-bot {
+.footer-top,
+.footer-bot {
     color: var(--db-light);
     padding: 3rem;
-}       
+}
 
-div > b {
-    font-size: 28px;
+div>b {
+    font-size: 20px;
 }
 
 
 
 /* #endregion footer_______________________________________________________________*/
-
-
