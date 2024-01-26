@@ -483,8 +483,19 @@ nav {
 
 /* sezione call to action */
 
+.box-prtn{
+    display: flex;
+    align-items: center;
+    padding: 10rem 0;
+    
+}
 
-
+.box-text-partner{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
 
 
 
