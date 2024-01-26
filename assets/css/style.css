@@ -249,9 +249,20 @@ nav{
     padding: 0 1rem;
 }
 
-.logo {
+.box-left{
+    align-items: center;
+    display: inline-block;
+}
+
+.logo-header {
     width: 100%;
     display: inline
+    
+}
+
+.logo {
+    width: 100%;
+    
 }
 
 .logo-50{
