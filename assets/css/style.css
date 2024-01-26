@@ -81,8 +81,11 @@ h3 {
     align-items: center;
 }
 
+
+
+
 .col-3 {
-    width: calc((100% / 12) *4);
+    width: calc((100% / 12) * 4);
 }
 
 .clean-link {
@@ -162,6 +165,11 @@ h2 {
 
 .ta-c {
     text-align: center;
+}
+
+.logo-cl{
+    width: 50%;
+    height: 50%;
 }
 
 /* #region Misure Padding_______________________________________________________________*/
