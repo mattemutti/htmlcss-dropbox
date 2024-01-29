@@ -100,7 +100,7 @@ h1 {
     padding: 0.6rem 2rem;
 }
 
-.btn-big-cont{
+.btn-big-cont {
     padding: 0.6rem 5rem;
 }
 
@@ -144,7 +144,7 @@ h1 {
 
 .bord-title {
     border-top: 1px solid rgba(128, 128, 128, 0.393);
-    border-bottom: 1px solid rgba(128, 128, 128, 0.393);  
+    border-bottom: 1px solid rgba(128, 128, 128, 0.393);
 }
 
 .bord-sw {
@@ -164,7 +164,7 @@ h1 {
     padding-bottom: 2rem;
 }
 
-.color-line{
+.color-line {
     color: grey;
 }
 
@@ -332,9 +332,7 @@ nav {
     line-height: 40px;
 }
 
-.img-logo {
-    
-}
+.img-logo {}
 
 .box-left {
     align-items: center;
@@ -357,10 +355,10 @@ nav {
 
 /* #region sezione jumbotrone */
 
-.scroll{
+.scroll {
 
-overflow-y: scroll;
-scroll-behavior: smooth;
+
+    scroll-behavior: ;
 
 }
 
@@ -372,7 +370,7 @@ scroll-behavior: smooth;
 .text-jumbo {
     display: flex;
     justify-content: center;
-   
+
 }
 
 .info-jumbo {
@@ -397,9 +395,7 @@ scroll-behavior: smooth;
 
 /* #region sezione planes */
 
-#piano-business{
-   
-}
+#piano-business {}
 
 
 .container-plan {
@@ -425,7 +421,7 @@ scroll-behavior: smooth;
 .fs-40px {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    
+
     padding-bottom: 3rem;
 }
 
@@ -510,7 +506,7 @@ scroll-behavior: smooth;
     flex-direction: column;
     gap: 1rem;
     position: relative;
-        
+
 }
 
 .box-cta-text {
@@ -518,20 +514,20 @@ scroll-behavior: smooth;
     flex-direction: column;
     gap: 1rem;
     padding: 1rem;
-    
+
 }
 
-.cta-border{
+.cta-border {
     border: 1px solid grey;
 
 }
-    
+
 
 .cta-btn {
     text-align: end;
-position: absolute;
-top: 30%;
-right: 5%;
+    position: absolute;
+    top: 30%;
+    right: 5%;
 }
 
 
@@ -651,8 +647,25 @@ right: 5%;
     justify-content: space-between;
     border-bottom: 1px solid black;
     padding-top: 3rem;
-    
+
 }
+
+
+.response {
+    text-align: center;
+    padding-top: 1rem;
+    display: none;
+}
+
+div:hover .response{
+    display: block;
+}
+
+
+
+
+
+
 
 
 /* #endregion main_______________________________________________________________*/
