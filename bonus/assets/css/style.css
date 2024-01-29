@@ -651,19 +651,34 @@ nav {
 }
 
 
-.response {
+#response1 {
     text-align: center;
     padding-top: 1rem;
-    display: none;
+    color: var(--db-light);
 }
 
-div:hover .response{
-    display: block;
+#response2 {
+    text-align: center;
+    padding-top: 1rem;
+    color: var(--db-light);
 }
 
+.arrow1:hover #response1{
+    color: red;
+}
 
+.answer1:hover #response1{
+    color: var(--db-dark);
+}
 
+/*
+div:hover #response1{
+    color: var(--db-dark);
+}*/
 
+div:hover #response2{
+    color: var(--db-dark);
+}
 
 
 
