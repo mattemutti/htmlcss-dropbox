@@ -357,6 +357,13 @@ nav {
 
 /* #region sezione jumbotrone */
 
+.scroll{
+
+overflow-y: scroll;
+scroll-behavior: smooth;
+
+}
+
 .bg-jumbotron {
     background-color: var(--db-secondary);
     height: 700px;
@@ -365,6 +372,7 @@ nav {
 .text-jumbo {
     display: flex;
     justify-content: center;
+   
 }
 
 .info-jumbo {
@@ -379,6 +387,8 @@ nav {
 
 .icon-jumbo {
     font-size: 300%;
+    text-decoration: none;
+    color: black;
 }
 
 
@@ -386,6 +396,11 @@ nav {
 
 
 /* #region sezione planes */
+
+#piano-business{
+   
+}
+
 
 .container-plan {
     width: 70%;
