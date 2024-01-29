@@ -101,12 +101,12 @@ h1 {
 
 }
 
-.btn-prtn{
+.btn-prtn {
     padding: 0.6rem 1.2rem;
     background-color: var(--db-light);
 }
 
-.btn-free{
+.btn-free {
     padding: 0.6rem 1.2rem;
     background-color: var(--db-light);
     border: none;
@@ -126,6 +126,8 @@ h1 {
     width: calc((100% / 12) * 4);
 }
 
+
+
 /*
 [class^="col-"]{
     padding: 1rem;
@@ -138,7 +140,8 @@ h1 {
 }
 
 .bord-title {
-    box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 20%);
+    border-top: 1px solid rgba(128, 128, 128, 0.393);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.393);  
 }
 
 .bord-sw {
@@ -154,7 +157,7 @@ h1 {
     width: 40%;
 }
 
-.padding-bottom2{
+.padding-bottom2 {
     padding-bottom: 2rem;
 }
 
@@ -393,11 +396,33 @@ nav {
 
 /* #region sezione planes */
 
+.container-plan {
+    width: 70%;
+    margin: auto;
+    max-width: 1200px;
+    margin-top: 15rem;
+
+}
+
+.row-plan {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.card-plane {
+    width: calc((100% / 12) * 4 - 1rem);
+    box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 20%);
+    padding-left: 1rem;
+}
+
+
+
 
 .fs-40px {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
-    padding-top: 15rem;
+    
     padding-bottom: 3rem;
 }
 
@@ -414,7 +439,6 @@ nav {
     margin-bottom: 2rem;
 }
 
-/* sezione title planes */
 
 .box-class {
     display: flex;
@@ -502,14 +526,14 @@ nav {
 
 /* sezione call to action */
 
-.box-prtn{
+.box-prtn {
     display: flex;
     align-items: center;
     padding: 6rem 0;
-    
+
 }
 
-.box-text-partner{
+.box-text-partner {
     display: flex;
     flex-direction: column;
     gap: 2rem;
