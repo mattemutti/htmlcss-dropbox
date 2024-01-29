@@ -164,27 +164,15 @@ h1 {
     padding-bottom: 2rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.color-line{
+    color: grey;
+}
 
 .col-3 {
     width: calc((100% / 12) * 4);
 }
+
+
 
 
 
@@ -419,9 +407,6 @@ nav {
     padding-bottom: 4rem;
 }
 
-
-
-
 .fs-40px {
     font-family: 'Open Sans', sans-serif;
     font-size: 40px;
@@ -441,7 +426,6 @@ nav {
     padding-right: 1rem;
     margin-bottom: 2rem;
 }
-
 
 .box-class {
     display: flex;
@@ -478,17 +462,9 @@ nav {
     padding: 2rem 0;
 }
 
-
-
-
-
-
-
-
 .planes {
     display: flex;
     padding-bottom: 3rem;
-
 }
 
 .plane {
@@ -496,10 +472,7 @@ nav {
     padding-bottom: 5rem;
     border-bottom: 1px solid black;
     width: 100%;
-
 }
-
-
 
 
 /* #endregion sezione planes */
@@ -520,9 +493,6 @@ nav {
     gap: 1rem;
 }
 
-
-
-
 .cta-btn {
     text-align: end;
 }
@@ -534,7 +504,6 @@ nav {
     display: flex;
     align-items: center;
     padding: 6rem 0;
-
 }
 
 .box-text-partner {
@@ -545,38 +514,29 @@ nav {
 }
 
 
-
-
 /* sezione partner */
-
-
-
 
 .card {
     width: 33.33%;
     padding: 0.5rem;
-
 }
+
 
 /* sezione operation */
 
 .card-cl {
     width: 33.33%;
-
 }
-
 
 .card-cl1 {
     width: 33.33%;
     padding: 1rem;
     background-color: rgb(233, 233, 233);
-
 }
 
 .logo-cl {
     width: 50%;
     height: 50%;
-
 }
 
 .logo-client {
@@ -585,9 +545,7 @@ nav {
     filter: invert();
     align-items: center;
     margin: auto;
-
 }
-
 
 .box1 {
     align-items: center;
@@ -597,9 +555,7 @@ nav {
 .box2 {
     align-items: center;
     background-color: #61082bFF;
-
 }
-
 
 .box3 {
     align-items: center;
@@ -616,8 +572,9 @@ nav {
     padding: 2rem;
 }
 
-/* sezione client */
 
+
+/* sezione client */
 
 .free {
     background-color: var(--db-secondary);
@@ -636,9 +593,7 @@ nav {
 .box6 {
     align-items: center;
     background-color: #b4d0e7FF;
-
 }
-
 
 .box7 {
     align-items: center;
@@ -667,7 +622,6 @@ nav {
 #footer-site {
     background-color: rgb(0, 0, 0);
     color: var(--db-light);
-
 }
 
 
@@ -676,6 +630,7 @@ nav {
     color: var(--db-light);
     padding: 3rem;
 }
+
 
 /*
 div> {
