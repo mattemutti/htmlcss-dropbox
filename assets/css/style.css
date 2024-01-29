@@ -603,8 +603,10 @@ right: 5%;
 }
 
 .box-free {
+    display: flex;
     justify-content: space-between;
     padding: 5rem;
+
 }
 
 .box5 {
@@ -630,7 +632,11 @@ right: 5%;
 /* sezione free */
 
 .box-faq {
+    display: flex;
+    justify-content: space-between;
     border-bottom: 1px solid black;
+    padding-top: 3rem;
+    
 }
 
 
