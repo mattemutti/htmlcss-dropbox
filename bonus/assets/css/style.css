@@ -645,16 +645,27 @@ nav {
 .box-faq {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding-top: 3rem;
-
+    
 }
 
+.box-faq1{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
+
+.box-faq2{
+    border-bottom: 1px solid black;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
+}
 
 #response1 {
     text-align: center;
     padding-top: 1rem;
-    color: var(--db-light);
+    padding-bottom: 1rem;
+    display: none;
 }
 
 #response2 {
@@ -671,12 +682,16 @@ nav {
     color: var(--db-dark);
 }
 
-/*
-div:hover #response1{
-    color: var(--db-dark);
-}*/
 
-div:hover #response2{
+.box-faq1:hover #response1{
+    display: block;
+}
+
+.box-faq2:hover #response1{
+    display: block;
+}
+
+.box-faq:hover #response2{
     color: var(--db-dark);
 }
 
