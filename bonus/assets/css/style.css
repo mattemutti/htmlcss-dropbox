@@ -342,7 +342,6 @@ nav {
 .logo-header {
     width: 100%;
     display: inline;
-
 }
 
 /* #endregion header_______________________________________________________________*/
@@ -714,7 +713,18 @@ nav {
 .footer-top,
 .footer-bot {
     color: var(--db-light);
-    padding: 3rem;
+    padding: 3rem 0;
+}
+
+.box-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list{
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
 }
 
 
